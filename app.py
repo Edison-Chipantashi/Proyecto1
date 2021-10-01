@@ -7,7 +7,7 @@ st.sidebar.title("Menú")
 opciones_inicio=st.sidebar.radio("Seleccione una opción", ["Inicio", "Datos","Cálculos"])
 
 ##Leer el registro .LAS
-archivo_las=lasio.read("archivolas\Pozo-1.LAS")
+archivo_las=lasio.read("Pozo-1.LAS")
 df=archivo_las.df()
 
 ##
